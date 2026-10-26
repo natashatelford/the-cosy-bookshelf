@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f4e5cf" />
+    <meta name="description" content="The Cosy Bookshelf is a warm, personal home for your books, reading progress, series and stats." />
+    <title>The Cosy Bookshelf</title>
+    <link rel="icon" href="assets/logo.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="The Cosy Bookshelf home">
+        <img src="assets/logo.png" alt="" />
+        <span>The Cosy Bookshelf</span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#features">Features</a>
+        <a href="#download">Android app</a>
+        <button class="theme-toggle" type="button" aria-label="Switch colour theme">
+          <span aria-hidden="true">☾</span>
+          <span class="theme-label">Dark</span>
+        </button>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Your reading life, beautifully organised</p>
+          <h1>A cosier home for every book you love.</h1>
+          <p class="lede">Track your library, reading progress, series, wishlists and stats—in one calm, personal space designed for readers.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="https://thecosybookshelf.com/">Open The Cosy Bookshelf</a>
+            <a class="button button-secondary" href="https://thecosybookshelf.com/downloads/TheCosyBookshelf-latest.apk">Download Android APK</a>
+          </div>
+          <ul class="trust-list" aria-label="App highlights">
+            <li>Web and Android</li>
+            <li>Light and dark themes</li>
+            <li>Cross-device sync</li>
+          </ul>
+        </div>
+
+        <div class="hero-art" aria-label="A preview of The Cosy Bookshelf">
+          <div class="preview-card">
+            <img class="preview-shelf preview-light" src="assets/currently-reading-light.png" alt="A warm shelf with books, a lantern and a plant" />
+            <img class="preview-shelf preview-dark" src="assets/currently-reading-dark.png" alt="A dark walnut shelf with books, a glowing lantern and a plant" />
+            <div class="sample-book" aria-hidden="true">
+              <span class="sample-spine">Your next<br />chapter</span>
+            </div>
+            <div class="preview-copy">
+              <span>Currently reading</span>
+              <strong>Your favourite book</strong>
+              <div class="progress"><i></i></div>
+              <small>62% complete</small>
+            </div>
+          </div>
+          <img class="hero-emblem" src="assets/emblem.png" alt="" />
+        </div>
+      </section>
+
+      <section class="feature-section" id="features">
+        <div class="section-heading">
+          <p class="eyebrow">Made for real collections</p>
+          <h2>Everything your bookshelf needs.</h2>
+          <p>From the first scan to the final page, keep your collection accurate and your reading journey visible.</p>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <span class="feature-icon">⌕</span>
+            <h3>Build your library</h3>
+            <p>Add books by search, ISBN or camera and keep editions, covers and formats tidy.</p>
+          </article>
+          <article>
+            <span class="feature-icon">Ⅲ</span>
+            <h3>Track every series</h3>
+            <p>See missing books, reading order and what is ready to read next at a glance.</p>
+          </article>
+          <article>
+            <span class="feature-icon">◷</span>
+            <h3>Remember the journey</h3>
+            <p>Record progress, finished dates, ratings, reviews, reading time and calendar history.</p>
+          </article>
+          <article>
+            <span class="feature-icon">♧</span>
+            <h3>Share with readers</h3>
+            <p>Find friends, share updates and discover what the community is reading.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="download-section" id="download">
+        <div>
+          <p class="eyebrow">Take your shelf with you</p>
+          <h2>Read, update and organise from your phone.</h2>
+          <p>The Android app keeps the same cosy themes and connects to your bookshelf across devices.</p>
+        </div>
+        <div class="download-actions">
+          <a class="button button-primary" href="https://thecosybookshelf.com/downloads/TheCosyBookshelf-latest.apk">Download latest APK</a>
+          <small>Android installation package from the official website</small>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>© <span id="year"></span> The Cosy Bookshelf</span>
+      <div>
+        <a href="https://thecosybookshelf.com/">Website</a>
+        <a href="https://thecosybookshelf.com/legal/privacy.html">Privacy</a>
+        <a href="https://thecosybookshelf.com/legal/terms.html">Terms</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
